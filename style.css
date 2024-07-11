@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main section */
+.main {
+  background: url(https://wallpapers.com/images/high/netflix-background-gs7hjuwvv2g0e9fj.webp);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main .box {
+  height: 100vh;
+  width: 100%;
+  opacity: 0.44;
+  background-color: black;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%; /* Consider using more flexible units like percentages */
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  z-index: 10; /* Ensure z-index is necessary and correctly used */
+}
+
+.logo img {
+  height: 120px; /* Ensure logo size is consistent across devices */
+  position: relative; /* Positioning might be unnecessary here */
+  z-index: 10;
+}
+
+.btn {
+  margin-right: 15%; /* Use consistent spacing units */
+}
+
+button {
+  font-size: 15px;
+  background: red;
+  color: #ffff; /* Consider using hexadecimal color notation */
+  border-radius: 6px;
+  width: 90px;
+  height: 36px;
+}
+
+/* Description container */
+.disriptionContainer {
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%; /* Consider using more flexible units */
+  margin-left: 30%; /* Use percentages carefully for responsive design */
+}
+
+.disription {
+  text-align: center;
+  width: 60%;
+  height: 40vh;
+  color: #fff;
+  background: #000;
+}
+
+/* Content sections */
+.section {
+  text-align: center;
+  margin-top: 9%; /* Ensure consistent spacing */
+}
+
+.content h1 {
+  font-size: 50px;
+  color: #ffff;
+}
+
+.content p {
+  font-weight: normal;
+  font-size: 24px;
+  color: #ffff;
+  margin-top: 2%;
+}
+
+/* Input styling */
+.input input {
+  display: inline-block;
+  padding: 15px;
+  color: #fff;
+  width: 30%;
+  height: 55px;
+  line-height: 20px; /* Ensure consistent line-height */
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+.join {
+  height: 58px;
+  width: 15%; /* Consider using percentages for responsive design */
+}
+
+/* Styling for blurred section */
+.blur {
+  background: #4d4b4b;
+  width: 100%;
+  height: 1.5vh;
+}
+
+/* Container styling */
+.contanier {
+  position: relative;
+  background: #000;
+  overflow: hidden;
+  height: 84vh; /* Consider using more flexible units */
+}
+
+/* Wrapper1 styling */
+.wrapper1 h1 {
+  margin-top: -5%; /* Negative margins can be tricky for layout */
+  width: 80%;
+  padding: 5%;
+  color: #fff;
+  font-size: 60px;
+}
+
+/* Section2 styling */
+.section2 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 8%; /* Ensure consistent spacing */
+  justify-content: space-between; /* Duplicate property */
+  margin-left: 9%; /* Use consistent spacing units */
+  margin-right: 6%; /* Use consistent spacing units */
+}
+
+.wrapper1 p {
+  font-size: 25px;
+  color: #fff;
+  margin-left: 4.5%; /* Use consistent spacing units */
+}
+
+.wrapper {
+  width: 60%; /* Consider using percentages for responsive design */
+  padding: 5%;
+  color: #fff;
+}
+
+.wrapper h1 {
+  font-size: 60px;
+  margin-bottom: 8%;
+}
+
+.wrapper p {
+  font-size: 25px;
+  /* margin-top: 9%; */
+}
+
+/* Video/gif styling */
+.videogif img {
+  height: 300px;
+  position: relative; /* Positioning might be unnecessary here */
+}
+
+/* Wrapper3 styling */
+.wrapper3 {
+  width: 50%; /* Consider using percentages for responsive design */
+  padding: 5%;
+  color: #fff;
+}
+
+.wrapper3 h1 {
+  font-size: 70px;
+}
+
+.wrapper3 p {
+  font-size: 25px;
+  margin-top: 3%; /* Ensure consistent spacing */
+}
+
+/* Container2 styling */
+.contanier2 {
+  position: relative;
+  background: #000;
+  overflow: hidden;
+  height: 70vh; /* Consider using more flexible units */
+}
+
+/* Section3 styling */
+.section3 {
+  margin-left: 15%; /* Use consistent spacing units */
+}
+
+/* Question section styling */
+.Question {
+  background: #000;
+  color: #fff;
+  padding: 3%; /* Ensure consistent padding */
+  justify-content: center;
+}
+
+.Question h1 {
+  font-size: 60px;
+  text-align: center;
+  font-weight: 900px; /* Font weight should be a numeric value */
+}
+
+.Quebox {
+  background: #4d4b4b;
+  height: 12vh;
+  max-width: 70vw; /* Consider using percentages for responsive design */
+  margin: auto;
+  padding: 22px; /* Ensure consistent padding */
+  margin-top: 1%; /* Ensure consistent spacing */
+  display: flex;
+  justify-content: space-between;
+}
+
+.Quebox span {
+  font-size: 30px;
+}
+
+/* Search box styling */
+.SrchBox {
+  width: 80%;
+  display: flex;
+  margin-left: 10%; /* Use consistent spacing units */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%; /* Ensure consistent spacing */
+}
+
+.SrchBox input {
+  display: inline-block;
+  padding: 15px;
+  color: #fff;
+  width: 50%;
+  height: 55px;
+  line-height: 20px; /* Ensure consistent line-height */
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+/* Paragraph styling */
+.pera p {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 4%; /* Ensure consistent spacing */
+  padding: 1%; /* Ensure consistent padding */
+}
+
+/* Footer styling */
+footer {
+  background: #000;
+  margin: auto;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 60vw; /* Consider using percentages for responsive design */
+  margin: auto;
+  padding: 5%;
+}
+
+.item a {
+  color: #fff;
+}
+
+.footer .item {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Ensure consistent spacing */
+}
+
+.text span {
+  color: #fff;
+  padding: 19%; /* Ensure consistent padding */
+}
